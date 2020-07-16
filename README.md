@@ -1,6 +1,6 @@
 # app-scanner
 
-An example app that can be used to log keyboard events to an OakOS unit
+An example app that can be used to log keyboard events sent via Honeywell scanner to an OakOS unit
 
 ## Running locally
 
