@@ -1,0 +1,19 @@
+{
+  "name": "app-scanner",
+  "version": "1.0.0",
+  "description": "App repository as an example scanner app",
+  "main": "index.js",
+  "engines": {
+    "node": "10.15.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env $(cat .env | grep -v '#' | xargs) npm start",
+    "debug": "sudo node --nolazy --inspect-brk=9229 src/index.js",
+    "rebuild": "rm -rf node_modules/ package-lock.json && npm i ",
+    "test": "exit 0;"
+  },
+  "dependencies": {
+    "usb-barcode-scanner": "^1.0.2"
+  }
+}
