@@ -48,3 +48,9 @@ docker-compose down
 ```
 
 This snippet results can be seen in the application logs on the OakOS Dashboard
+
+## Scanner Used in this POC
+
+In this POC I used a Honeywell 3320g Hand scanner. The documentation for this scanner can be found [here](https://www.honeywellaidc.com/en/-/media/en/files-public/technical-publications/barcode-scanners/vuquest-3320g/3320-ug.pdf)
+
+While developing this POC I first configured the scanner by scanning the USB Keyboard (PC) barcode from page 9 of the above PDF document.
